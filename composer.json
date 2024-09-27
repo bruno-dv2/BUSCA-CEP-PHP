@@ -1,0 +1,23 @@
+{
+    "name": "bruno/laravel",
+    "description": "Consulta de CEP online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bruno-dv2",
+            "email": "brunoge3@edu.unifor.br"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "bruno\\laravel\\": "src/"
+        }
+    }
+}   
